@@ -5027,6 +5027,6 @@ exports.default = {
     reduceProductsArrToMarkup
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["igKGj","8lqZg"], "8lqZg", "parcelRequiree5b0")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["igKGj","8lqZg"], "8lqZg", "parcelRequire8f6d")
 
 //# sourceMappingURL=index.975ef6c8.js.map
