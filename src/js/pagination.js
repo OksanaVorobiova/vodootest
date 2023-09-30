@@ -18,4 +18,21 @@ export default function makePagination() {
   paginationCont.innerHTML = "";
 
   const buttonsNum = 5;
+  const sideBtns = Math.floor(buttonsNum / 2);
+  const limit = 24;
+  const products = 461;
+  const pagesTotal = Math.ceil(products / limit);
+
+  let start = curPage - sideBtns;
+  let finish = curPage + sideBtns;
+
+  if (start < 1) {
+    start = 1;
+    finish = buttonsNum;
+  }
+
+  if (finish > pagesTotal) {
+    finish = pagesTotal;
+    start = pagesTotal - buttonsNum + 1;
+  }
 }
